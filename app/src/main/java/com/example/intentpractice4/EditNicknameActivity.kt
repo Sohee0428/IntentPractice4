@@ -15,7 +15,7 @@ class EditNicknameActivity : AppCompatActivity() {
 
 //            입력한 새 닉네임이 무엇인지를 변수로 저장
 
-            val inputNewNiskname = newNicknameEdt.text.toString()
+            val inputNewNickname = newNicknameEdt.text.toString()
 
 
 //            입력한 닉네임을 가지고 메인으로 복귀
@@ -24,7 +24,7 @@ class EditNicknameActivity : AppCompatActivity() {
 
             val resultIntent = Intent()
 
-            resultIntent.putExtra("nickname", inputNewNiskname)
+            resultIntent.putExtra("nickname", inputNewNickname)
 
             setResult(Activity.RESULT_OK, resultIntent)
 
